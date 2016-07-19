@@ -1,0 +1,93 @@
+Partlist
+
+Exported from video_board.brd at 29-May-16 21:58
+
+EAGLE Version 7.4.0 Copyright (c) 1988-2015 CadSoft
+
+Assembly variant: 
+
+Part     Value          Package   Library    Position (mm)         Orientation	Notes
+
+AUDIO    736880-49      736880-49 con-conrad (60 65)               R270		Use Yamaha's own output (RCA)
+C1       100 uF         SMC_D     rcl        (60 16)               R270		16v or more!
+C2       20 nF          C0805     rcl        (54 16)               R270
+C3       100 uF         SMC_D     rcl        (69 16)               R270		16v or more!
+C4       20 nF          C0805     rcl        (75 16)               R270
+C5       10 uF          SMC_B     rcl        (92 17)               R180		10v or more
+C6       10 uF          SMC_B     rcl        (100 17)              R180		10v or more
+C7       10 uF          SMC_B     rcl        (84 17)               R180		10v or more
+C8       10 mF          SMC_B     rcl        (30 15)               R270		10v or more
+C9       330 uF         SMC_D     rcl        (78 53)               R0		10v or more
+C10      330 uF         SMC_D     rcl        (88 43)               R90		10v or more
+C11      330 uF         SMC_D     rcl        (95 43)               R90		10v or more
+C12      330 uF         SMC_D     rcl        (78 47)               R0		10v or more
+C13      33pF           C0805     rcl        (5 14.5)              R90
+C14      33-68pF        CTRIMTZ03 rcl        (5 22)                R180
+C15      100nF          C0805     rcl        (58 28)               R270
+C16      100nF          C0805     rcl        (58 40)               R270
+C17      100nF          C0805     rcl        (58 52)               R270
+C18      47uF           SMC_B     rcl        (44 35)               R270		10v or more
+C19      33pF           C0805     rcl        (23 14.5)             R90
+C20      33-68pF        CTRIMTZ03 rcl        (23 22)               R180
+C21      100nF          C0805     rcl        (49 35)               R270
+C22      100nF          C0805     rcl        (39 35)               R270
+C23      68pF           CTRIMTZ03 rcl        (48 57)               R180
+C24      47uF           SMC_B     rcl        (40 60)               R0		10v or more
+C25      100nF          C0805     rcl        (34 54)               R0
+C26      10uF           SMC_B     rcl        (40 54)               R0		10v or more
+C27      100nF          C0805     rcl        (52 47)               R90
+C28      220uF          SMC_D     rcl        (48 65)               R0		10v or more
+C29      220uF          SMC_D     rcl        (26 58)               R180		10v or more
+C30      220uF          SMC_D     rcl        (26 65)               R180		10v or more
+C31      100nF          C0805     rcl        (4 36)                R90
+C32      47pF           C0805     rcl        (3 30)                MR90		(optional, back side)
+C33      47pF           C0805     rcl        (25 30)               MR90		(optional, back side)
+CONN     CN1            1X13      pinhead    (83 4)                R0
+D1       1N4148DO35-7   MINIMELF  diode      (30 28)               R270
+D2       1N4148DO35-7   MINIMELF  diode      (92 22)               R180
+D3       1N4148DO35-7   MINIMELF  diode      (100 22)              R180
+D4       1N4148DO35-7   MINIMELF  diode      (84 22)               R180
+IC1      74HCT04        SO14      74xx-eu    (14 34)               R0
+IC2      CXA1645        SOP24     CXA1645M   (37 43)               R0
+JP1      NTSC/PAL       JP2       jumper     (12 42)               R180
+JP2      NTSC/PAL       JP2       jumper     (12 47)               R180
+JP3      NTSC/PAL       JP2       jumper     (12 52)               R180
+Q1       4,43Mhz        HC49/S    crystal    (11 22)               R270
+Q2       3,58Mhz        HC49/S    crystal    (17 22)               R270
+R1       1.8 kOhm       R0805     resistor   (75 23)               R90
+R2       22 kOhm        R0805     resistor   (51 20)               R180
+R3       75             R0805     rcl        (96 13)               R270
+R4       10 kOhm        R0805     resistor   (75 29)               R270
+R5       15 kOhm        R0805     resistor   (75 35)               R90
+R6       750 Ohm        R0805     resistor   (30 21)               R90
+R7       220 Ohm        R0805     resistor   (42 20)               R0
+R8       220 Ohm        R0805     resistor   (91 35)               R270
+R9       220 Ohm        R0805     resistor   (96 35)               R270
+R10      220 Ohm        R0805     resistor   (80 35)               R90
+R11      68 Ohm         R0805     resistor   (75 41)               R270
+R12      1 kOhm         R0805     resistor   (101 46)              R90
+R13      120 Ohm        R0805     resistor   (101 41)              R270
+R14      18 Ohm         R0805     resistor   (86 35)               R270
+R15      18 Ohm         R0805     resistor   (101 35)              R270
+R16      18 Ohm         R0805     resistor   (80 41)               R270
+R17      4.7M           R0805     rcl        (5 30)                R90
+R18      1k             CA6V      pot        (42 26)               R0
+R19      1k             CA6V      pot        (64 26)               R0
+R20      1.6k           R0805     rcl        (4 42)                R90
+R21      1k             CA6V      pot        (64 38)               R0
+R22      1k             CA6V      pot        (64 50)               R0
+R23      4.7M           R0805     rcl        (23 30)               R90
+R24      1.6k           R0805     rcl        (20 42)               R90
+R25      16k            R0805     rcl        (4 52)                R90
+R26      75             R0805     rcl        (40 66)               R180
+R27      75             R0805     rcl        (34 60)               R0
+R28      75             R0805     rcl        (34 66)               R0
+R29      20k            R0805     rcl        (20 52)               R270
+R30      47k            R0805     rcl        (48 47)               R270
+S-VIDEO  DIN4           M_DIN4    mini_din   (12 64)               R0
+T1       2SC1815        TO92-ECB  transistor (51 26)               R270
+T2       2SC1815        TO92-ECB  transistor (93 28)               R270
+T3       2SC1815        TO92-ECB  transistor (101 28)              R270
+T4       2SC1815        TO92-ECB  transistor (85 28)               R270
+VIDEO    736880-49      736880-49 con-conrad (76 65)               R270		Use Yamaha's own output (RCA)
+X2       DIN-8          DIN8      din8       (96 60)               R180
