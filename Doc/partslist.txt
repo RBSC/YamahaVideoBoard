@@ -1,8 +1,8 @@
+Improved Video Board for Yamaha MSXs version 1.1
+Copyright (c) 2016 RBSC
+
 Partlist
-
-Exported from video_board.brd at 29-May-16 21:58
-
-EAGLE Version 7.4.0 Copyright (c) 1988-2015 CadSoft
+--------
 
 Assembly variant: 
 
