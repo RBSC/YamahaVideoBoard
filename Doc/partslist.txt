@@ -16,7 +16,7 @@ C4       20 nF          C0805     rcl        (75 16)               R270
 C5       10 uF          SMC_B     rcl        (92 17)               R180		10v or more
 C6       10 uF          SMC_B     rcl        (100 17)              R180		10v or more
 C7       10 uF          SMC_B     rcl        (84 17)               R180		10v or more
-C8       10 mF          SMC_B     rcl        (30 15)               R270		10v or more
+C8       10 uF          SMC_B     rcl        (30 15)               R270		10v or more
 C9       330 uF         SMC_D     rcl        (78 53)               R0		10v or more
 C10      330 uF         SMC_D     rcl        (88 43)               R90		10v or more
 C11      330 uF         SMC_D     rcl        (95 43)               R90		10v or more
