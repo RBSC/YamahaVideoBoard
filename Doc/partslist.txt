@@ -52,8 +52,8 @@ IC2      CXA1645        SOP24     CXA1645M   (37 43)               R0
 JP1      NTSC/PAL       JP2       jumper     (12 42)               R180
 JP2      NTSC/PAL       JP2       jumper     (12 47)               R180
 JP3      NTSC/PAL       JP2       jumper     (12 52)               R180
-Q1       4,43Mhz        HC49/S    crystal    (11 22)               R270
-Q2       3,58Mhz        HC49/S    crystal    (17 22)               R270
+Q1       4,43Mhz        HC49/S    crystal    (11 22)               R270		Use 4.433 MHz oscillator
+Q2       3,58Mhz        HC49/S    crystal    (17 22)               R270		Use 3.579 MHz oscillator
 R1       1.8 kOhm       R0805     resistor   (75 23)               R90
 R2       22 kOhm        R0805     resistor   (51 20)               R180
 R3       75             R0805     rcl        (96 13)               R270

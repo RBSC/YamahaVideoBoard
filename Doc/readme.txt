@@ -5,6 +5,8 @@ Copyright (c) 2016 RBSC
 Notes
 -----
 
+Please use the following oscillators: 3.579 MHz for NTSC and 4.433 MHz for PAL.
+
 It is recommended to use 74HCT04 chip for the frequency generator circuit. The possible interference on the composite video output
 can be reduced to a minimum by the trim capacitors.
 
