@@ -1,8 +1,10 @@
-Improved Video Board for Yamaha MSXs (YIS-503 and similar) version 1.2
-Copyright (c) 2016-2023 RBSC
+Improved Video Board for Yamaha MSXs version 1.1
+Copyright (c) 2016 RBSC
 
 Partlist
 --------
+
+Assembly variant: 
 
 Part     Value          Package   Library    Position (mm)         Orientation	Notes
 
@@ -50,11 +52,6 @@ IC2      CXA1645        SOP24     CXA1645M   (37 43)               R0
 JP1      NTSC/PAL       JP2       jumper     (12 42)               R180
 JP2      NTSC/PAL       JP2       jumper     (12 47)               R180
 JP3      NTSC/PAL       JP2       jumper     (12 52)               R180
-JP4      INT            JP1E      jumper                           R180         Internal NTSC generator
-JP5                     JP1E      jumper                           R180         Jumper to disable internal generator
-JP6                     JP1E      jumper                           R180         Jumper to disable internal generator
-JP7      EXT            JP1E      jumper                           R180         External NTSC generator (for CPU)
-L1       68uH           LL3230M   L3230M                           R180         Use 68uH SMD inductor or bridge pads
 Q1       4,43Mhz        HC49/S    crystal    (11 22)               R270		Use 4.433 MHz oscillator
 Q2       3,58Mhz        HC49/S    crystal    (17 22)               R270		Use 3.579 MHz oscillator
 R1       1.8 kOhm       R0805     resistor   (75 23)               R90

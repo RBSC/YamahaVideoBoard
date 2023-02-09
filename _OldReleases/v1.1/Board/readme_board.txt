@@ -1,5 +1,5 @@
-Improved Video Board for Yamaha MSXs version 1.3
-Copyright (c) 2016-2023 RBSC
+Improved Video Board for Yamaha MSXs version 1.1
+Copyright (c) 2016 RBSC
 
 The board layout was created by RBSC. Commercial usage is not allowed!
 
