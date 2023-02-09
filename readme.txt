@@ -14,6 +14,7 @@ boards or the older versions of the video boards from RBSC. The changes to the v
 - Allows to switch between on-board and internal MSX's 3.58MHz clock generator for NTSC
 - Allows to disable one or both on-board clock generators
 - Requires less components if CXA2075 encoder is used
+- If using only computer's 3.58Mhz and NTSC, there's no need to assemble both clock generators
 
 It is possible to use some components from the old black-and-white video board from the YIS503IIIR computer to build the v1.2
 board. The following components can be re-used:
@@ -23,6 +24,7 @@ board. The following components can be re-used:
 - 2sc1684 transistors (4)
 - 100uF capacitors (2)
 - DIN8 female socket
+- Male 13-pin connector for motherboard's cable
 
 IMPORTANT! When installing 100uF capacitors from the original board, please make sure to install the 16v rated capacitor as C3
 and the 10v rated capacitor as C2. Otherwise, the 10v rated capacitor installed as C3 may blow up!
