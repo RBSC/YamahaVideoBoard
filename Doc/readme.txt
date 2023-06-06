@@ -8,7 +8,7 @@ About
 This is the improved video board for Yamaha YIS503II, YIS503III and similar MSX/MSX2 computers to replace the original video
 boards or the older versions of the video boards from RBSC. The changes to the v1.2 board comparing to the previous verions are:
 
-- Allows to use either CXA1675 or CXA2075 video encoder chips
+- Allows to use either CXA1645 or CXA2075 video encoder chips
 - Contains an improved YTRAP filter
 - Allows to use through-hole electrolytic capacitors (see note below)
 - Allows to switch between on-board and internal MSX's 3.58MHz clock generator for NTSC
@@ -67,7 +67,7 @@ When setting up the board, it's recommended to measure the voltages on the outpu
 measurement should be done on the central pin. The correct voltage setting is required to form the stable picture on the
 composite video and S-Video outputs.
 
-When using the CXA1675 encoder chip, the recommended voltage for the CSYNC variable resistor is 1.3v, the recommended voltages
+When using the CXA1645 encoder chip, the recommended voltage for the CSYNC variable resistor is 1.3v, the recommended voltages
 for Red, Green and Blue variable resistors are from 1.5v to 2.0v, depending on the desired brightness. The voltages on R, G and
 B channels must be the same to avoid color distortion. Each color should be tuned after setting it as background color - for
 example when setting the blue color's voltage, use the "color15,4,4" command in Basic to set blue as background color. For
